@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Vampiro One);
+
+*{
+	box-sizing: border-box;
+
+}
+.quiz{
+	background: linear-gradient(to right, #e6dada, #274046);
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction:column;
+	min-height: 100vh;
+}
+
+h2{
+	font-family: Vampiro One;
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	color:#f2deb8;
+}
+h3{
+	background: #f2deb8;
+	color: #274046;
+	font-size: 1.5rem;
+}
+ul li label{
+	cursor:pointer;
+}
+.form-check{
+	background: #f2deb8;
+	color:#274044;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem 1rem rgba(100,100,100,0.1);
+	font-size: 1.5rem;
+	width:40rem;
+	max-width:100%;
+	padding: 2rem;
+	align-content: center;
+	align-items: center;
+}
+button{
+	background: #274046;
+	color: #f2deb8;
+	width:100%;
+	border:none;
+	font-size: 1.5rem;
+	display:block;
+	padding:1rem;
+}
+button:hover{
+	background:#95a5a5;
+	cursor:pointer;
+}
